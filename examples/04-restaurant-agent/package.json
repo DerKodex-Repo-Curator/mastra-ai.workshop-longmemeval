@@ -4,7 +4,7 @@
   "description": "Complete restaurant recommendation agent with memory",
   "type": "module",
   "scripts": {
-    "seed": "DB_BASE='./' tsx src/run.ts",
+    "seed": "DB_BASE='./' tsx src/seed.ts",
     "dev": "mastra dev"
   },
   "dependencies": {
@@ -24,4 +24,3 @@
     "node": ">=20.0.0"
   }
 }
-
